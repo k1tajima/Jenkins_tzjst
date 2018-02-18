@@ -1,5 +1,5 @@
 FROM jenkins/jenkins:lts
-LABEL maintainer="Keiichi TAJIMA<k1tajima@mi.to>"
+LABEL maintainer="https://qiita.com/k1tajima"
 
 # set timezone for Java runtime arguments
 ENV JAVA_OPTS=-Duser.timezone=Asia/Tokyo
